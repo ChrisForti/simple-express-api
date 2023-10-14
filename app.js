@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("<h1>Homepage</h1><a href='/info'>Info page</a>");
+  res.send("<h1>Year 2024</h1><a href='/info'>Info page</a>");
 });
 
 app.get("/info", (req, res) => {
